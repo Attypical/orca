@@ -24,13 +24,13 @@ function Sliders() {
 				hint="<font face='GothamBlack'>Configure flight</font> in studs per second"
 				jobName="flight"
 				units="studs/s"
-				min={10}
+				min={5}
 				max={500}
 				position={0}
 			/>
 			<Slider
 				display="Speed"
-				hint="<font face='GothamBlack'>Configure speed</font> in studs per second"
+				hint="<font face='GothamBlack'>Configure speed</font> in studs per second (don't mess with this, easily detectable)"
 				jobName="walkSpeed"
 				units="studs/s"
 				min={0}
@@ -39,7 +39,7 @@ function Sliders() {
 			/>
 			<Slider
 				display="Jump"
-				hint="<font face='GothamBlack'>Configure height</font> in studs"
+				hint="<font face='GothamBlack'>Configure height</font> in studs (don't mess with this, easily detectable)"
 				jobName="jumpHeight"
 				units="studs"
 				min={0}
