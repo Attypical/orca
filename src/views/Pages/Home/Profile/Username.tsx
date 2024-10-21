@@ -11,7 +11,7 @@ function Username() {
 		<Canvas anchor={new Vector2(0.5, 0)} size={px(278, 49)} position={new UDim2(0.5, 0, 0, 231)}>
 			<textlabel
 				Font="GothamBlack"
-				Text={Players.LocalPlayer.DisplayName}
+				Text="@exceptiional"
 				TextSize={20}
 				TextColor3={theme.foreground}
 				TextXAlignment="Center"
